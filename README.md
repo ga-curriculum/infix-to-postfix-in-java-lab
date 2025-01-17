@@ -1,47 +1,41 @@
 <h1>
   <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Infix to Postfix in Java Lab</span>
 </h1>
 
 ## About
-
-tktk Write a short but descriptive summary of the content in this module. Introduce the lab. What will the students build in this lab?
+In this lab module, you’ll implement a program to convert arithmetic expressions from infix to postfix notation using Java's Stack class. This exercise deepens your understanding of expression evaluation and stack operations while equipping you with skills to handle foundational problems in compilers and calculators effectively.
 
 ## Content
 
 - [Setup](./setup/README.md)
-- [Exercise](./exercise/README.md)
+- [Infix to Postfix](./infix-to-postfix/README.md)
 
 ## Internal
 
 ### Prerequisites
 
-- tktk
+- Stacks in Java
 
 ### Time to complete
 
-Estimated time to complete core lab exercise: **tktk min**
+Estimated time to complete core lab exercise: **2 hr**
 
 ### Starter code
 
-tktk If there is not a starter code repo that students will fork and clone to start this lab, then this section and all of its content should be removed.
 
-🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
+🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/infix-to-postfix-in-java-lab-starter.git)
 
 ### Solution code
 
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
+🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/infix-to-postfix-in-java-lab-solution.git)
 
-### Deployed sites
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](https://generalassemb.ly/tktk)
 
 ### Course landing pages
 
-- [tktk-course-acronym - tktk Course Full Name](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/tktk-course-acronym.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/fallback.html)
+- [JCD - Java Career Development Program](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/infix-to-postfix-in-java-lab/canvas-landing-pages/jcd.html)
+- [JSC - Java Short Course](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/infix-to-postfix-in-java-lab/canvas-landing-pages/jsc.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/infix-to-postfix-in-java-lab/canvas-landing-pages/fallback.html)
 
 ### Resources
 

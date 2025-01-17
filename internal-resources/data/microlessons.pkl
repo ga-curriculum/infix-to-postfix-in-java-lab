@@ -9,17 +9,10 @@ setup = new Template.Microlesson {
   videoUrl = ""
 }
 
-exercise = new Template.Microlesson {
-  friendlyName = "Exercise"
-  dirName = "exercise"
+infixToPostfix = new Template.Microlesson {
+  friendlyName = "Infix to Postfix"
+  dirName = "infix-to-postfix"
   type = "Content"
-  videoUrl = ""
-}
-
-levelUp = new Template.Microlesson {
-  friendlyName = "Level Up"
-  dirName = "level-up"
-  type = "Level Up Content"
   videoUrl = ""
 }
 

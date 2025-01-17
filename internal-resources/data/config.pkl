@@ -12,24 +12,37 @@ import "microlessons.pkl" as mls
 
 repo {
   // This name is shown in the header nav to navigate users home
-  friendlyName = "[tktk Headline]"
+  friendlyName = "Infix to Postfix in Java Lab"
   // This must match the repo name as it appears on GitHub exactly
-  name = "tktk-module-name"
+  name = "infix-to-postfix-in-java-lab"
   type = "Lab"
 }
 
 courses {
+  new {
+    name = "jcd"
+    microlessons {
+      // Add microlessons here, in the order they should be delivered
+      mls.setup
+      mls.infixToPostfix
+    }
+  }
+
+  new {
+    name = "jsc"
+    microlessons {
+      // Add microlessons here, in the order they should be delivered
+      mls.setup
+      mls.infixToPostfix
+	}
+  }
   new {
     // Do not remove this fallback course!
     name = "fallback"
     microlessons {
       // Add microlessons here, in the order they should be delivered
       mls.setup
-      mls.exercise
-      // You can make course-specific adjustments using a syntax like this:
-      (mls.levelUp) {
-        type = "Level Up content"
-      }
+      mls.infixToPostfix
     }
   }
 }

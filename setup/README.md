@@ -1,11 +1,10 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Infix to Postfix in Java Lab</span>
   <span class="subhead">Setup</span>
 </h1>
 
-## Setup
+## Step 1:
 
-tktk The below is a generic starting point for lab setup. You may need to make adjustments to this.
 
 Open your Terminal application and navigate to your <code class="filepath">~/code/ga/labs</code> directory:
 
@@ -13,46 +12,59 @@ Open your Terminal application and navigate to your <code class="filepath">~/cod
 cd ~/code/ga/labs
 ```
 
-### Fork and clone the starter code
+## Step 2: Clone a local copy of the starter code
 
-tktk Use the below instructions if students will need starter code from a separate module to complete the lab exercise. If they do not, delete this section and all of its contents.
-
-Fork the [[tktk Headline] Starter Code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name-starter-code) repository.
-
-Clone a copy of your remote repo locally by using the `git clone` command:
+Clone a copy of [Infix to Postfix in Java Lab Starter](https://git.generalassemb.ly/modular-curriculum-all-courses/infix-to-postfix-in-java-lab-starter) repository locally by using the `git clone` command:
 
 ```bash
-git clone https://git.generalassemb.ly/<your-username>/tktk-module-name-starter-code.git tktk-module-name
+git clone https://git.generalassemb.ly/modular-curriculum-all-courses/infix-to-postfix-in-java-lab-starter infix-to-postfix-in-java-lab
 ```
+> 💡 The `infix-to-postfix-in-java-lab` at the end of this command will place the contents of the `infix-to-postfix-in-java-lab-starter` repo into a directory named <code class="filepath">infix-to-postfix-in-java-lab</code>.
 
-Replace `<your-username>` (including the `<` and `>`) with your General Assembly GitHub Enterprise username before you run this command.
-
-### Create and clone a GitHub repo
-
-tktk Use the below instructions if students do not need starter code from a separate module to complete the lab exercise. If they do, delete this section and all of its contents.
-
-Make a new repository on [GitHub](https://github.com/) named `tktk-module-name`.
-
-Clone a copy of your remote repo locally by using the `git clone` command:
+Move into the <code class="filepath">infix-to-postfix-in-java-lab</code> directory:
 
 ```bash
-git clone https://github.com/<your-username>/tktk-module-name.git
+cd infix-to-postfix-in-java-lab
 ```
 
-Replace `<your-username>` (including the `<` and `>`) with your GitHub username before you run this command.
-
-### Launch in VS Code
-
-Next, `cd` into the cloned directory, <code class="filepath">tktk-module-name</code>:
+You don't want GA commits on your work. So remove the existing Git information from this starter code:
 
 ```bash
-cd tktk-module-name
+rm -rf .git
 ```
 
-Open the contents of the directory in VS Code:
+## Step 3: Configure for using your personal GitHub account
+Before getting this repository to your GitHub account, re-initialize it as a new Git repository:
 
 ```bash
-code .
+git init
+git add .
+git commit -m "initial commit"
 ```
 
-tktk Are there more lab setup steps? Don't forget to add them here.
+Make a new repository on your personal [GitHub](https://github.com/) account named `infix-to-postfix-in-java-lab`.
+
+Link your local Git repo to your remote GitHub repo:
+
+```bash
+git remote add origin https://github.com/<github-username>/infix-to-postfix-in-java-lab.git
+git push origin main
+```
+
+<blockquote class="warning">
+  🚨 Do not copy the above command. It will not work. Your GitHub username will replace <code>&lt;github-username&gt;</code> (including the <code><</code> and <code>></code>) in the URL above.
+</blockquote>
+
+## Step 4: Launch the lab starter code in IntelliJ IDEA
+
+Open IntelliJ IDEA Community Edition and open the project by selecting the `Open` option on the launch screen as outlined in red below.
+
+![The Welcome to IntelliJ IDEA launch panel. The Open button is outlined in red.](./assets/landing-open.png)
+
+Next, navigate to and select the `infix-to-postfix-in-java-lab` directory you just created and open the project.
+
+Trust the project if you are prompted.
+
+## Running the tests
+
+This lab includes a set of tests to help you verify your work. To run the tests, right-click on the <code class="filepath">src/test/java</code> directory and select **Run 'All Tests'**.
