@@ -33,9 +33,9 @@ Estimated time to complete core lab exercise: **2 hr**
 
 ### Course landing pages
 
-- [JCD - Java Career Development Program](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/infix-to-postfix-in-java-lab/canvas-landing-pages/jcd.html)
-- [JSC - Java Short Course](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/infix-to-postfix-in-java-lab/canvas-landing-pages/jsc.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/infix-to-postfix-in-java-lab/canvas-landing-pages/fallback.html)
+- [JCD - Java Career Development Program](https://ga-curriculum.github.io/infix-to-postfix-in-java-lab/canvas-landing-pages/jcd.html)
+- [JSC - Java Short Course](https://ga-curriculum.github.io/infix-to-postfix-in-java-lab/canvas-landing-pages/jsc.html)
+- [Fallback](https://ga-curriculum.github.io/infix-to-postfix-in-java-lab/canvas-landing-pages/fallback.html)
 
 ### Resources
 
@@ -47,4 +47,4 @@ Estimated time to complete core lab exercise: **2 hr**
 
 ---
 
-**Find a 👾 bug 👾 or have suggestions? [Let us know](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/module-feedback.html)!**
+**Find a 👾 bug 👾 or have suggestions? [Let us know](https://ga-curriculum.github.io/universal-resources-internal/module-feedback.html)!**
