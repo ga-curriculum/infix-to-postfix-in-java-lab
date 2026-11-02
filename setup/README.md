@@ -14,10 +14,10 @@ cd ~/code/ga/labs
 
 ## Step 2: Clone a local copy of the starter code
 
-Clone a copy of [Infix to Postfix in Java Lab Starter](https://git.generalassemb.ly/modular-curriculum-all-courses/infix-to-postfix-in-java-lab-starter) repository locally by using the `git clone` command:
+Clone a copy of [Infix to Postfix in Java Lab Starter](https://github.com/ga-curriculum/infix-to-postfix-in-java-lab-starter) repository locally by using the `git clone` command:
 
 ```bash
-git clone https://git.generalassemb.ly/modular-curriculum-all-courses/infix-to-postfix-in-java-lab-starter infix-to-postfix-in-java-lab
+git clone https://github.com/ga-curriculum/infix-to-postfix-in-java-lab-starter infix-to-postfix-in-java-lab
 ```
 > 💡 The `infix-to-postfix-in-java-lab` at the end of this command will place the contents of the `infix-to-postfix-in-java-lab-starter` repo into a directory named <code class="filepath">infix-to-postfix-in-java-lab</code>.
 
