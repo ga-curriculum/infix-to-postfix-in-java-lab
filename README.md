@@ -24,11 +24,11 @@ Estimated time to complete core lab exercise: **2 hr**
 ### Starter code
 
 
-🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/infix-to-postfix-in-java-lab-starter.git)
+🟢 [Starter code](https://github.com/ga-curriculum/infix-to-postfix-in-java-lab-starter.git)
 
 ### Solution code
 
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/infix-to-postfix-in-java-lab-solution.git)
+🏁 [Solution code](https://github.com/ga-curriculum/infix-to-post-fix-in-java-lab-solution.git)
 
 
 ### Course landing pages
